@@ -1,0 +1,27 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int range;
+    int sum;
+    int count=0;
+    
+    // cout<<"Enter your range: ";
+    // cin>>range;
+    
+    for(int i =1; i<=20;i++){
+        
+        if(i%2==0){
+            cout<<"Even numbers are "<<i<<endl;
+            sum+=i;//same as sum=sum+1;
+            count++;// this will count the number of even num
+            }
+            
+    }
+    double average=sum/count;//same as average=sum/(range\2);
+    cout<<"Average is :"<<average<<endl
+    <<"Sum is :"<<sum<<endl;
+    
+    return 0;
+}
