@@ -20,5 +20,6 @@ System.out.printf(" The number of users in Apps are : ");
 System.out.println(myApps.getUsers());
 System.out.println("That's all folk");
 System.out.println(myApps.getUsers());
+  System.out.printf("This git hub shii be nice bruv");
 }
 } 
